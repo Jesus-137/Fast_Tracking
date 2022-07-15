@@ -20,7 +20,7 @@
       </Label>
       <MenuButton cache="true" layoutY="135.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="66.0" prefWidth="323.0" text="Paciente" wrapText="true" AnchorPane.bottomAnchor="562.6" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="940.8" AnchorPane.topAnchor="134.99999999999997">
         <items>
-          <MenuItem onAction="#btnAgregar">
+          <MenuItem>
                <graphic>
                   <Button mnemonicParsing="false" onMouseClicked="#btnAgregar" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Agregar">
                      <font>
@@ -54,9 +54,9 @@
       </MenuButton>
       <MenuButton layoutX="319.0" layoutY="135.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="314.0" text="Citas">
          <items>
-            <MenuItem onAction="#btnAgregar">
+            <MenuItem>
                <graphic>
-                  <Button mnemonicParsing="false" onMouseClicked="#btnAgregar" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Agregar">
+                  <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Agregar">
                      <font>
                         <Font size="31.0" />
                      </font>
@@ -64,7 +64,7 @@
                </graphic></MenuItem>
             <MenuItem>
                <graphic>
-                  <Button mnemonicParsing="false" onMouseClicked="#btnEliminar" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Eliminar">
+                  <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Eliminar">
                      <font>
                         <Font size="31.0" />
                      </font>
@@ -72,7 +72,7 @@
                </graphic></MenuItem>
             <MenuItem>
                <graphic>
-                  <Button mnemonicParsing="false" onMouseClicked="#btnVer" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Ver">
+                  <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Ver">
                      <font>
                         <Font size="31.0" />
                      </font>
@@ -88,7 +88,7 @@
             <Font size="20.0" />
          </font>
       </Button>
-      <Text layoutX="4.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenido a Fast Tracking nuestra aplicación hecha pesada en tí, con ella podras registrar pacientes y agendar citas." wrappingWidth="1256.5365715026855">
+      <Text layoutX="4.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenido a Fast Tracking nuestra aplicación pensada en tí, con ella podras registrar pacientes y agendar citas." wrappingWidth="1256.5365715026855">
          <font>
             <Font size="39.0" />
          </font>
@@ -102,7 +102,7 @@
          <items>
             <MenuItem onAction="#btnAgregar">
                <graphic>
-                  <Button mnemonicParsing="false" onMouseClicked="#btnAgregar" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Agregar">
+                  <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Agregar">
                      <font>
                         <Font size="31.0" />
                      </font>
@@ -111,7 +111,7 @@
             </MenuItem>
             <MenuItem>
                <graphic>
-                  <Button mnemonicParsing="false" onMouseClicked="#btnEliminar" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Eliminar">
+                  <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Eliminar">
                      <font>
                         <Font size="31.0" />
                      </font>
@@ -120,7 +120,7 @@
             </MenuItem>
             <MenuItem>
                <graphic>
-                  <Button mnemonicParsing="false" onMouseClicked="#btnVer" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Ver">
+                  <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Ver">
                      <font>
                         <Font size="31.0" />
                      </font>
@@ -136,7 +136,7 @@
          <items>
             <MenuItem onAction="#btnAgregar">
                <graphic>
-                  <Button mnemonicParsing="false" onMouseClicked="#btnAgregar" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Agregar">
+                  <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Agregar">
                      <font>
                         <Font size="31.0" />
                      </font>
@@ -145,7 +145,7 @@
             </MenuItem>
             <MenuItem>
                <graphic>
-                  <Button mnemonicParsing="false" onMouseClicked="#btnEliminar" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Eliminar">
+                  <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Eliminar">
                      <font>
                         <Font size="31.0" />
                      </font>
@@ -154,7 +154,7 @@
             </MenuItem>
             <MenuItem>
                <graphic>
-                  <Button mnemonicParsing="false" onMouseClicked="#btnVer" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Ver">
+                  <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Ver">
                      <font>
                         <Font size="31.0" />
                      </font>
