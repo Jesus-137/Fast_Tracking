@@ -20,25 +20,25 @@
       </Label>
       <MenuButton cache="true" layoutY="135.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="66.0" prefWidth="323.0" text="Paciente" wrapText="true" AnchorPane.bottomAnchor="562.6" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="940.8" AnchorPane.topAnchor="134.99999999999997">
         <items>
-          <MenuItem>
+          <MenuItem onAction="#btnAgregar">
                <graphic>
-                  <Button mnemonicParsing="false" onMouseClicked="#btnAgregar" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Agregar">
+                  <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Agregar">
                      <font>
                         <Font size="31.0" />
                      </font>
                   </Button>
                </graphic></MenuItem>
-          <MenuItem>
+          <MenuItem onAction="#btnEliminar">
                <graphic>
-                  <Button mnemonicParsing="false" onMouseClicked="#btnEliminar" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Eliminar">
+                  <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Eliminar">
                      <font>
                         <Font size="31.0" />
                      </font>
                   </Button>
                </graphic></MenuItem>
-            <MenuItem>
+            <MenuItem onAction="#btnDatos">
                <graphic>
-                  <Button mnemonicParsing="false" onMouseClicked="#btnDatos" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Datos">
+                  <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Datos">
                      <font>
                         <Font size="31.0" />
                      </font>
@@ -100,7 +100,7 @@
       </ImageView>
       <MenuButton layoutX="633.0" layoutY="135.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="314.0" text="Tratamiendo">
          <items>
-            <MenuItem onAction="#btnAgregar">
+            <MenuItem>
                <graphic>
                   <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Agregar">
                      <font>
@@ -134,7 +134,7 @@
       </MenuButton>
       <MenuButton layoutX="946.0" layoutY="135.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="314.0" text="Inventario">
          <items>
-            <MenuItem onAction="#btnAgregar">
+            <MenuItem>
                <graphic>
                   <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Agregar">
                      <font>

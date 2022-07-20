@@ -9,7 +9,7 @@ import javafx.scene.input.MouseEvent;
 import java.util.ArrayList;
 
 public class AgregarPacienteController {
-    private ArrayList<Cliente> clientes = new ArrayList<>();
+    private static ArrayList<Cliente> clientes = new ArrayList<>();
     @FXML
     private TextField txtEdad;
 
@@ -18,15 +18,22 @@ public class AgregarPacienteController {
 
     @FXML
     private TextField txtNombre;
+    @FXML
+    private TextField txtId;
 
     @FXML
     void btnAgregar(MouseEvent event) {
-        clientes.add(new Cliente(txtNombre.getText(),Integer.parseInt(txtEdad.getText()), txtMotivo.getText()));
+        Cliente cliente = new Cliente(txtNombre.getText(),Integer.parseInt(txtEdad.getText()),Integer.parseInt(txtId.getText()));
+        cliente.setTratamientos(txtMotivo.getText());
+        clientes.add(cliente);
         FastTrackingApplication.setFXML("Home-view", "Fast Tracking");
     }
 
     @FXML
     void btnCancelar(MouseEvent event) {
         FastTrackingApplication.setFXML("Home-view", "Fast Tracking");
+    }
+    public static ArrayList<Cliente> getClientes(){
+        return clientes;
     }
 }

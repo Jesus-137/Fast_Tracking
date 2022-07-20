@@ -19,18 +19,12 @@ public class HomeController {
     }
 
     @FXML
-    void btnDatos(MouseEvent event) {
-
+    void btnDatos(ActionEvent event) {
+        FastTrackingApplication.setFXML("Datos-view","Fast Tracking");
     }
 
     @FXML
-    void btnEliminar(MouseEvent event) {
-
+    void btnEliminar(ActionEvent event) {
+        FastTrackingApplication.setFXML("EliminarPaciente-view","Fast Tracking");
     }
-
-    @FXML
-    void btnVer(MouseEvent event) {
-
-    }
-
 }
