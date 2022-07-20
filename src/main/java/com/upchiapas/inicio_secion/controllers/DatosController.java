@@ -6,9 +6,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
-import javafx.scene.input.ContextMenuEvent;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.Pane;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -39,7 +37,7 @@ public class DatosController {
         while (!buscar&&iterator.hasNext()){
             if (iterator.next().getId()==id){
                 mostrar.setText("Nombre: "+pacientes.get(i).getNombre()+"\nEdad: "+pacientes.get(i).getEdad()+"\nTratamientos: \n");
-                tratamientos.setText(pacientes.get(i).getTratamientos());
+                tratamientos.setText(pacientes.get(i).Tratamientos());
             }
             i++;
         }

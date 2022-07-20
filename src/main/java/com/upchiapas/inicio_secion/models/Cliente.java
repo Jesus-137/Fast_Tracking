@@ -26,11 +26,15 @@ public class Cliente {
         this.tratamientos.add(tratamientos);
     }
 
-    public String getTratamientos() {
+    public String Tratamientos() {
         for (int i=0; i<tratamientos.size(); i++){
             return tratamientos.get(i);
         }
         return "";
+    }
+
+    public ArrayList<String> getTratamientos() {
+        return tratamientos;
     }
 
     public int getId() {

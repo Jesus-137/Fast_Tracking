@@ -13,7 +13,7 @@
 
 <AnchorPane prefHeight="764.0" prefWidth="1264.0" style="-fx-background-color: #C4F6F9;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.inicio_secion.controllers.HomeController">
    <children>
-      <Label layoutX="438.0" layoutY="27.0" text="Fast Trackig">
+      <Label layoutX="418.0" layoutY="27.0" text="Fast Tracking" AnchorPane.bottomAnchor="629.0" AnchorPane.leftAnchor="418.0" AnchorPane.rightAnchor="416.4" AnchorPane.topAnchor="27.0">
          <font>
             <Font size="74.0" />
          </font>
@@ -100,7 +100,7 @@
       </ImageView>
       <MenuButton layoutX="633.0" layoutY="135.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="314.0" text="Tratamiendo">
          <items>
-            <MenuItem>
+            <MenuItem onAction="#btnAgregarT">
                <graphic>
                   <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Agregar">
                      <font>

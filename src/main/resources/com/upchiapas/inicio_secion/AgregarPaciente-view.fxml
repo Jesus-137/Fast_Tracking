@@ -9,7 +9,7 @@
 
 <AnchorPane prefHeight="764.0" prefWidth="448.0" style="-fx-background-color: #C4F6F9;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.inicio_secion.controllers.AgregarPacienteController">
    <children>
-      <Label layoutX="39.0" layoutY="27.0" text="Fast Trackig">
+      <Label layoutX="10.0" layoutY="27.0" prefHeight="108.0" prefWidth="429.0" text="Fast Tracking" AnchorPane.bottomAnchor="629.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="27.0">
          <font>
             <Font size="74.0" />
          </font>
