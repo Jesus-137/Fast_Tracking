@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="764.0" prefWidth="448.0" style="-fx-background-color: #C4F6F9;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.inicio_secion.controllers.EliminarPacienteControler">
+   <children>
+      <Label layoutX="39.0" layoutY="27.0" text="Fast Trackig">
+         <font>
+            <Font size="74.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="135.0" prefHeight="42.0" prefWidth="367.0" text="Ingrese la id del paciente">
+         <font>
+            <Font name="Algerian" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtId" layoutX="39.0" layoutY="177.0" prefHeight="26.0" prefWidth="386.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </TextField>
+      <Button layoutX="139.0" layoutY="382.0" mnemonicParsing="false" onMouseClicked="#btnEliminar" prefHeight="51.0" prefWidth="183.0" style="-fx-background-color: #000000;" text="Eliminar" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="140.0" layoutY="455.0" mnemonicParsing="false" onMouseClicked="#btnCancelar" prefHeight="51.0" prefWidth="183.0" style="-fx-background-color: #000000;" text="Cancelar" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

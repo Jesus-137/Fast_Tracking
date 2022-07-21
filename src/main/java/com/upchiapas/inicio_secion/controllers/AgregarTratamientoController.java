@@ -7,6 +7,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 
 public class AgregarTratamientoController {
@@ -16,13 +17,14 @@ public class AgregarTratamientoController {
     private TextField txtTratamiento;
     @FXML
     void btnAgregarT(MouseEvent event) {
-        Iterator<Cliente> iterator = AgregarPacienteController.getClientes().iterator();
+        ArrayList<Cliente> clientes = AgregarPacienteController.getClientes();
         int id=Integer.parseInt(txtId.getText());
         int i=0;
         boolean bandera=false;
-        while (!bandera&&iterator.hasNext()){
-            if (iterator.next().getId()==id){
-                AgregarPacienteController.getClientes().get(i).getTratamientos().add(txtTratamiento.getText());
+        while (!bandera&&i<clientes.size()){
+            if (clientes.get(i).getId()==id){
+                AgregarPacienteController.getClientes().get(i).setTratamientos(txtTratamiento.getText());
+                FastTrackingApplication.setFXML("Home-view","Fast Tracking");
                 bandera=true;
             }
             i++;

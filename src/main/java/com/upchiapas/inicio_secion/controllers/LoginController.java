@@ -1,6 +1,7 @@
 package com.upchiapas.inicio_secion.controllers;
 
 import com.upchiapas.inicio_secion.FastTrackingApplication;
+import com.upchiapas.inicio_secion.models.Usuario;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -26,6 +27,8 @@ public class LoginController {
     @FXML
     void btnLogin(MouseEvent event)
     {
+        Usuario usuario =new Usuario("Jesus","1234");
+        CrearCuentaControllers.getUsuarios().add(usuario);
         boolean correcto = false;
         int i=0;
         while (!correcto&&i<CrearCuentaControllers.getUsuarios().size())

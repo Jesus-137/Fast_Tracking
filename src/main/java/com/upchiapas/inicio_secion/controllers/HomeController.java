@@ -31,4 +31,12 @@ public class HomeController {
     void btnAgregarT(ActionEvent event){
         FastTrackingApplication.setFXML("AgregarTratamiento-view","Fast Tracking");
     }
+    @FXML
+    void btnAgregarProducto(ActionEvent event){
+        FastTrackingApplication.setFXML("AgregarProducto-view","Fast Tracking");
+    }
+    @FXML
+    void btnEliminarProducto(ActionEvent event){
+        FastTrackingApplication.setFXML("EliminarProducto-view","Fast Tracking");
+    }
 }

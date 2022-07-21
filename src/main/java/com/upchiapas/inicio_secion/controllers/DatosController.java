@@ -26,21 +26,23 @@ public class DatosController {
 
     @FXML
     void btnBuscar(MouseEvent event){
-        buscar(Integer.parseInt(txtId.getText()));
-    }
-
-    private String buscar(int id){
         ArrayList<Cliente> pacientes= AgregarPacienteController.getClientes();
         Iterator<Cliente> iterator = pacientes.iterator();
+        int id=Integer.parseInt(txtId.getText());
         boolean buscar=false;
         int i=0;
+        String cadena="";
         while (!buscar&&iterator.hasNext()){
             if (iterator.next().getId()==id){
-                mostrar.setText("Nombre: "+pacientes.get(i).getNombre()+"\nEdad: "+pacientes.get(i).getEdad()+"\nTratamientos: \n");
-                tratamientos.setText(pacientes.get(i).Tratamientos());
+                mostrar.setText("Nombre: "+pacientes.get(i).getNombre()+" Edad: "+pacientes.get(i).getEdad()+"Tratamientos: ");
+                tratamientos.setText(pacientes.get(i).getTratamientos().get(0));
+                for (int j=0; j<pacientes.get(i).getTratamientos().size(); j++){
+                    cadena+=pacientes.get(i).getTratamientos().get(j)+"\n";
+                }
+                tratamientos.setText(cadena);
+                buscar=true;
             }
             i++;
         }
-        return "no se en contro al cliente revise la id";
     }
 }

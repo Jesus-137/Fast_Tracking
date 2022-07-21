@@ -14,12 +14,12 @@
             <Font size="74.0" />
          </font>
       </Label>
-      <Label layoutX="39.0" layoutY="135.0" prefHeight="41.0" prefWidth="308.0" text="NoMbre del Paciente">
+      <Label layoutX="39.0" layoutY="135.0" prefHeight="41.0" prefWidth="308.0" text="NoMbre del Paciente" AnchorPane.bottomAnchor="587.4" AnchorPane.leftAnchor="39.0" AnchorPane.rightAnchor="101.0" AnchorPane.topAnchor="135.0">
          <font>
             <Font name="Algerian" size="24.0" />
          </font>
       </Label>
-      <TextField fx:id="txtNombre" layoutX="39.0" layoutY="177.0" prefHeight="26.0" prefWidth="386.0">
+      <TextField fx:id="txtNombre" layoutX="39.0" layoutY="177.0" prefHeight="26.0" prefWidth="386.0" AnchorPane.bottomAnchor="560.6" AnchorPane.leftAnchor="39.0" AnchorPane.rightAnchor="22.600000000000023" AnchorPane.topAnchor="177.0">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
@@ -29,7 +29,7 @@
             <Font name="Algerian" size="24.0" />
          </font>
       </Label>
-      <TextField fx:id="txtEdad" layoutX="39.0" layoutY="245.0" prefHeight="26.0" prefWidth="386.0">
+      <TextField fx:id="txtEdad" layoutX="39.0" layoutY="245.0" prefHeight="26.0" prefWidth="386.0" AnchorPane.bottomAnchor="492.6" AnchorPane.leftAnchor="39.0" AnchorPane.rightAnchor="22.600000000000023" AnchorPane.topAnchor="245.0">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
@@ -44,7 +44,7 @@
             <Insets />
          </opaqueInsets>
       </TextField>
-      <Button layoutX="140.0" layoutY="444.0" mnemonicParsing="false" onMouseClicked="#btnAgregar" prefHeight="51.0" prefWidth="183.0" style="-fx-background-color: #000000;" text="Agregar" textFill="WHITE">
+      <Button layoutX="140.0" layoutY="444.0" mnemonicParsing="false" onMouseClicked="#btnAgregar" prefHeight="51.0" prefWidth="183.0" style="-fx-background-color: #000000;" text="Agregar" textFill="WHITE" AnchorPane.bottomAnchor="268.8" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="124.80000000000001" AnchorPane.topAnchor="444.0">
          <font>
             <Font size="24.0" />
          </font>
