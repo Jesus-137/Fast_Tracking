@@ -4,60 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="149be38f-d78c-48c5-b63f-198dd5dd506d" name="Changes" comment="Se añade la opcion de agregar tratamiento">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_11_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inicio_Secion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/AgregarProductoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/EliminarProductoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/models/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/AgregarProducto-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/EliminarProducto-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/AgregarTratamiento-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/Datos-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/EliminarPaciente-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/FastTrackingApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/Home-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/Login-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/assets/img/Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/controllers/AgregarPacienteController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/controllers/AgregarTratamientoController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/controllers/CrearCuentaControllers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/controllers/DatosController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/controllers/EliminarPacienteControler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/controllers/HomeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/controllers/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/models/Cliente.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/models/Usuario.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/AgregarTratamientoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/AgregarTratamientoController.java" afterDir="false" />
+    <list default="true" id="149be38f-d78c-48c5-b63f-198dd5dd506d" name="Changes" comment="Se añade la opcion de agregar producto y eliminar producto">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/VerProductoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/VerProducto-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/DatosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/DatosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/EliminarProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/EliminarProductoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/models/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/models/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/AgregarPaciente-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/AgregarPaciente-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/Datos-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/Datos-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/models/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/models/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/EliminarProducto-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/EliminarProducto-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/Home-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/Home-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/AgregarPaciente-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/AgregarPaciente-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/Home-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/Home-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/controllers/DatosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/controllers/DatosController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/controllers/HomeController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +98,7 @@
       <workItem from="1658281793569" duration="4031000" />
       <workItem from="1658323194974" duration="5971000" />
       <workItem from="1658332781454" duration="10936000" />
-      <workItem from="1658365318103" duration="785000" />
+      <workItem from="1658365318103" duration="5578000" />
     </task>
     <task id="LOCAL-00001" summary="Se añade AgregarPaciente-view.fxml">
       <created>1658283287754</created>
@@ -155,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658286491198</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Se añade la opcion de agregar producto y eliminar producto">
+      <created>1658366195835</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658366195835</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +141,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se añade AgregarPaciente-view.fxml" />
     <MESSAGE value="Se añade la opcion de agregar tratamiento" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se añade la opcion de agregar tratamiento" />
+    <MESSAGE value="Se añade la opcion de agregar producto y eliminar producto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se añade la opcion de agregar producto y eliminar producto" />
   </component>
 </project>

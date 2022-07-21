@@ -11,12 +11,8 @@ import javafx.scene.input.MouseEvent;
 import java.util.Iterator;
 
 public class EliminarProductoController {
-
     @FXML
-    private TextField txt;
-
-    @FXML
-    private Label txtCantidad;
+    private TextField txtCantidad;
 
     @FXML
     private TextField txtId;
@@ -29,11 +25,14 @@ public class EliminarProductoController {
     @FXML
     void btnEliminarProducto(MouseEvent event) {
         Iterator<Producto> iterator = AgregarProductoController.getProductos().iterator();
-        int id=Integer.parseInt(txtId.getText()), i=0;
+        int id=Integer.parseInt(txtId.getText()), i=0, cantidad, respaldo;
+        System.out.println(txtCantidad.getText());
+        cantidad=Integer.parseInt(txtCantidad.getText());
         boolean bantera=false;
         while (!bantera&&iterator.hasNext()){
             if (iterator.next().getId()==id) {
-                AgregarProductoController.getProductos().remove(i);
+                respaldo=AgregarProductoController.getProductos().get(i).getCantidad()-cantidad;
+                AgregarProductoController.getProductos().get(i).setCantidad(respaldo);
                 FastTrackingApplication.setFXML("Home-view","Fast Tracking");
                 bantera=true;
             }

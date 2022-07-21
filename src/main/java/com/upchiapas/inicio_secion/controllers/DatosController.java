@@ -35,7 +35,6 @@ public class DatosController {
         while (!buscar&&iterator.hasNext()){
             if (iterator.next().getId()==id){
                 mostrar.setText("Nombre: "+pacientes.get(i).getNombre()+" Edad: "+pacientes.get(i).getEdad()+"Tratamientos: ");
-                tratamientos.setText(pacientes.get(i).getTratamientos().get(0));
                 for (int j=0; j<pacientes.get(i).getTratamientos().size(); j++){
                     cadena+=pacientes.get(i).getTratamientos().get(j)+"\n";
                 }

@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="764.0" prefWidth="448.0" style="-fx-background-color: #C4F6F9;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.inicio_secion.controllers.EliminarProductoController">
    <children>
       <Label layoutX="49.0" layoutY="37.0" text="Fast Trackig">
@@ -35,12 +34,12 @@
             <Font size="24.0" />
          </font>
       </Button>
-      <Label fx:id="txtCantidad" layoutX="14.0" layoutY="213.0" prefHeight="42.0" prefWidth="427.0" text="Ingrese la cantidad del Producto">
+      <Label layoutX="14.0" layoutY="213.0" prefHeight="42.0" prefWidth="427.0" text="Ingrese la cantidad del Producto">
          <font>
             <Font name="Algerian" size="24.0" />
          </font>
       </Label>
-      <TextField fx:id="txt" layoutX="14.0" layoutY="255.0" prefHeight="26.0" prefWidth="386.0">
+      <TextField fx:id="txtCantidad" layoutX="14.0" layoutY="255.0" prefHeight="26.0" prefWidth="386.0">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>

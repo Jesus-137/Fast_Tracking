@@ -103,7 +103,7 @@
                   </Button>
                </graphic>
             </MenuItem>
-            <MenuItem>
+            <MenuItem onAction="#btnVer">
                <graphic>
                   <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Ver">
                      <font>
