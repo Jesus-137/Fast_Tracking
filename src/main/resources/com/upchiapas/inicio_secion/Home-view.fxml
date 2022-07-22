@@ -36,7 +36,7 @@
                      </font>
                   </Button>
                </graphic></MenuItem>
-            <MenuItem onAction="#btnDatos">
+            <MenuItem onAction="#btnVerDatos">
                <graphic>
                   <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Datos">
                      <font>
@@ -52,7 +52,7 @@
             <Cursor fx:constant="DEFAULT" />
          </cursor>
       </MenuButton>
-      <Button layoutX="558.0" layoutY="709.0" mnemonicParsing="false" onMouseClicked="#btnCerrarSecion" prefHeight="50.0" prefWidth="145.0" style="-fx-background-color: Black;" text="Cerrar Sesion" textFill="WHITE">
+      <Button layoutX="558.0" layoutY="709.0" mnemonicParsing="false" onMouseClicked="#btnCerrarSesion" prefHeight="50.0" prefWidth="145.0" style="-fx-background-color: Black;" text="Cerrar Sesion" textFill="WHITE">
          <font>
             <Font size="20.0" />
          </font>

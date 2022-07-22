@@ -1,7 +1,7 @@
 package com.upchiapas.inicio_secion.controllers;
 
 import com.upchiapas.inicio_secion.FastTrackingApplication;
-import com.upchiapas.inicio_secion.models.Usuario;
+import com.upchiapas.inicio_secion.models.Doctor;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.PasswordField;
@@ -11,7 +11,7 @@ import javafx.scene.input.MouseEvent;
 import java.util.ArrayList;
 
 public class CrearCuentaControllers {
-    private static ArrayList<Usuario> usuarios= new ArrayList<>();
+    private static ArrayList<Doctor> usuarios= new ArrayList<>();
 
     @FXML
     private PasswordField Password;
@@ -40,12 +40,12 @@ public class CrearCuentaControllers {
             i++;
         }
         if (bandera){
-            usuarios.add(new Usuario(nombre.getText(), Password.getText()));
+            usuarios.add(new Doctor(nombre.getText(), Password.getText()));
             FastTrackingApplication.setFXML("Login-view","Fast Tracking");
         }
     }
 
-    public static ArrayList<Usuario> getUsuarios(){
+    public static ArrayList<Doctor> getUsuarios(){
         return usuarios;
     }
 }

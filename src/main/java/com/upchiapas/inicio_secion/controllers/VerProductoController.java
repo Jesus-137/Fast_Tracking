@@ -23,20 +23,29 @@ public class VerProductoController {
     void btnBuscarProducto(MouseEvent event) {
         Iterator<Producto> iterator = AgregarProductoController.getProductos().iterator();
         boolean bantera=false;
-        int id=Integer.parseInt(txtId.getText()), i=0;
-        while (!bantera&&iterator.hasNext()){
-            if(iterator.next().getId()==id){
-                mostrar.setText("Nombre: "+AgregarProductoController.getProductos().get(i).getNombre()+
-                        "\nCantidad: "+AgregarProductoController.getProductos().get(i).getCantidad());
-                bantera=true;
+        int id, i=0;
+        try {
+            id=Integer.parseInt(txtId.getText());
+            while (!bantera && iterator.hasNext()) {
+                if (iterator.next().getId() == id) {
+                    mostrar.setText("Nombre: " + AgregarProductoController.getProductos().get(i).getNombre() +
+                            "\nCantidad: " + AgregarProductoController.getProductos().get(i).getCantidad());
+                    bantera = true;
+                }
+                i++;
             }
-            i++;
-        }
-        if(!bantera){
+            if (!bantera) {
+                Alert alert = new Alert(Alert.AlertType.ERROR);
+                alert.setHeaderText(null);
+                alert.setTitle("Buscar - Error");
+                alert.setContentText("No se encontro el producto revise la id");
+                alert.showAndWait();
+            }
+        }catch (NumberFormatException e){
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setHeaderText(null);
-            alert.setTitle("Buscar - Error");
-            alert.setContentText("No se encontro el producto revise la id");
+            alert.setTitle("Login - Error");
+            alert.setContentText("La id tiene que ser un numero");
             alert.showAndWait();
         }
     }

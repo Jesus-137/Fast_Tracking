@@ -3,16 +3,18 @@ package com.upchiapas.inicio_secion.controllers;
 import com.upchiapas.inicio_secion.FastTrackingApplication;
 import com.upchiapas.inicio_secion.models.Producto;
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class AgregarProductoController {
 
     private static ArrayList<Producto> productos =new ArrayList<>();
     @FXML
-    private TextField txtCandidad;
+    private TextField txtCantidad;
 
     @FXML
     private TextField txtId;
@@ -22,9 +24,34 @@ public class AgregarProductoController {
 
     @FXML
     void btnAgregarProducto(MouseEvent event) {
-        Producto producto = new Producto(txtNombre.getText(),Integer.parseInt(txtId.getText()),Integer.parseInt(txtCandidad.getText()));
-        productos.add(producto);
-        FastTrackingApplication.setFXML("Home-view","Fast Tracking");
+        int id, cantidad, i=0;
+        boolean bandera=false;
+        try {
+            Iterator<Producto> iterator = productos.iterator();
+            id=Integer.parseInt(txtId.getText());
+            cantidad = Integer.parseInt(txtCantidad.getText());
+            while (!bandera&&iterator.hasNext()) {
+                if(productos.get(i).getId()==id){
+                    Alert alert = new Alert(Alert.AlertType.ERROR);
+                    alert.setHeaderText(null);
+                    alert.setTitle("Error");
+                    alert.setContentText("Ya a ingresado esta id");
+                    alert.showAndWait();
+                    bandera=true;
+                }
+                i++;
+            }
+            if (!bandera){
+                productos.add(new Producto(txtNombre.getText(),id,cantidad));
+                FastTrackingApplication.setFXML("Home-view","Fast Tracking");
+            }
+        }catch (NumberFormatException e){
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setHeaderText(null);
+            alert.setTitle("Error");
+            alert.setContentText("La id y la cantidad tienen que ser un numero");
+            alert.showAndWait();
+        }
     }
 
     @FXML

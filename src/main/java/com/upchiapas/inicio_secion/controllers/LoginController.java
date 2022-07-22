@@ -1,34 +1,20 @@
 package com.upchiapas.inicio_secion.controllers;
 
 import com.upchiapas.inicio_secion.FastTrackingApplication;
-import com.upchiapas.inicio_secion.models.Usuario;
+import com.upchiapas.inicio_secion.models.Doctor;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
-import javafx.stage.Stage;
-
-import java.io.IOException;
 
 public class LoginController {
     @FXML
     private PasswordField Password;
-
-    @FXML
-    private Button btnIniciarSecion;
-
-    @FXML
-    private Button btnSalir;
-
     @FXML
     private TextField nombre;
 
     @FXML
     void btnLogin(MouseEvent event)
     {
-        Usuario usuario =new Usuario("Jesus","1234");
-        CrearCuentaControllers.getUsuarios().add(usuario);
         boolean correcto = false;
         int i=0;
         while (!correcto&&i<CrearCuentaControllers.getUsuarios().size())

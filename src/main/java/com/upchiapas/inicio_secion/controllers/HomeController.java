@@ -14,12 +14,12 @@ public class HomeController {
     }
 
     @FXML
-    void btnCerrarSecion(MouseEvent event) {
+    void btnCerrarSesion(MouseEvent event) {
         FastTrackingApplication.setFXML("Login-view","Fast Tracking");
     }
 
     @FXML
-    void btnDatos(ActionEvent event) {
+    void btnVerDatos(ActionEvent event) {
         FastTrackingApplication.setFXML("Datos-view","Fast Tracking");
     }
 

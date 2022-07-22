@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="764.0" prefWidth="448.0" style="-fx-background-color: #C4F6F9;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.inicio_secion.controllers.AgregarProductoController">
    <children>
       <Label layoutX="20.0" layoutY="37.0" prefHeight="108.0" prefWidth="429.0" text="Fast Tracking">
@@ -30,7 +29,7 @@
             <Font name="Algerian" size="24.0" />
          </font>
       </Label>
-      <TextField fx:id="txtCandidad" layoutX="11.0" layoutY="254.0" prefHeight="26.0" prefWidth="386.0">
+      <TextField fx:id="txtCantidad" layoutX="11.0" layoutY="254.0" prefHeight="26.0" prefWidth="386.0">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
