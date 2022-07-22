@@ -31,7 +31,7 @@ public class AgregarProductoController {
             id=Integer.parseInt(txtId.getText());
             cantidad = Integer.parseInt(txtCantidad.getText());
             while (!bandera&&iterator.hasNext()) {
-                if(productos.get(i).getId()==id){
+                if(iterator.next().getId()==id){
                     Alert alert = new Alert(Alert.AlertType.ERROR);
                     alert.setHeaderText(null);
                     alert.setTitle("Error");

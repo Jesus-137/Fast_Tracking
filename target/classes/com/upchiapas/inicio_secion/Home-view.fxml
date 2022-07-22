@@ -69,7 +69,7 @@
       </ImageView>
       <MenuButton layoutX="493.0" layoutY="135.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="314.0" text="Tratamiendo">
          <items>
-            <MenuItem onAction="#btnAgregarT">
+            <MenuItem onAction="#btnAgregarTratamiento">
                <graphic>
                   <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Agregar">
                      <font>
