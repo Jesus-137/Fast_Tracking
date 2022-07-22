@@ -11,7 +11,7 @@ import javafx.scene.input.MouseEvent;
 import java.util.ArrayList;
 
 public class CrearCuentaControllers {
-    private static ArrayList<Doctor> usuarios= new ArrayList<>();
+    private static ArrayList<Doctor> doctors= new ArrayList<>();
 
     @FXML
     private PasswordField Password;
@@ -28,8 +28,8 @@ public class CrearCuentaControllers {
     void btnCrearCuenta(MouseEvent event) {
         boolean bandera=true;
         int i=0;
-        while (bandera&&i<usuarios.size()){
-            if (nombre.getText().equals(usuarios.get(i).getNombre())){
+        while (bandera&&i<doctors.size()){
+            if (nombre.getText().equals(doctors.get(i).getNombre())){
                 Alert alert = new Alert(Alert.AlertType.ERROR);
                 alert.setHeaderText(null);
                 alert.setTitle("Login - Error");
@@ -40,12 +40,12 @@ public class CrearCuentaControllers {
             i++;
         }
         if (bandera){
-            usuarios.add(new Doctor(nombre.getText(), Password.getText()));
+            doctors.add(new Doctor(nombre.getText(), Password.getText()));
             FastTrackingApplication.setFXML("Login-view","Fast Tracking");
         }
     }
 
     public static ArrayList<Doctor> getUsuarios(){
-        return usuarios;
+        return doctors;
     }
 }

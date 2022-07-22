@@ -17,9 +17,7 @@ public class DatoController {
     @FXML
     private TextField txtId;
     @FXML
-    private TextArea tratamientos;
-    @FXML
-    private Label mostrar;
+    private Label tratamientos;
 
     @FXML
     void btnInicio(MouseEvent event) {
@@ -33,19 +31,26 @@ public class DatoController {
         int id;
         boolean buscar=false;
         int i=0;
-        String cadena="";
+        StringBuilder cadena= new StringBuilder();
         try {
             id = Integer.parseInt(txtId.getText());
             while (!buscar && iterator.hasNext()) {
                 if (iterator.next().getId() == id) {
-                    mostrar.setText("Nombre: " + pacientes.get(i).getNombre() + " Edad: " + pacientes.get(i).getEdad() + "Tratamientos: ");
                     for (int j = 0; j < pacientes.get(i).getTratamientos().size(); j++) {
-                        cadena += pacientes.get(i).getTratamientos().get(j) + "\n";
+                        cadena.append(pacientes.get(i).getTratamientos().get(j)).append("\n");
                     }
-                    tratamientos.setText(cadena);
+                    tratamientos.setText("Nombre: " + pacientes.get(i).getNombre() + "\nEdad: " + pacientes.get(i).getEdad()
+                            +"\nMotivo: "+pacientes.get(i).getMotivo()+ "\nTratamientos:\n"+cadena);
                     buscar = true;
                 }
                 i++;
+            }
+            if (!buscar){
+                Alert alert = new Alert(Alert.AlertType.ERROR);
+                alert.setHeaderText(null);
+                alert.setTitle("Error");
+                alert.setContentText("No se en contro la id del paciente verifique la id");
+                alert.showAndWait();
             }
         }catch (NumberFormatException e){
             Alert alert = new Alert(Alert.AlertType.ERROR);

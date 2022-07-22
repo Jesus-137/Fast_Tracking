@@ -62,14 +62,14 @@
             <Font size="39.0" />
          </font>
       </Text>
-      <ImageView fitHeight="267.0" fitWidth="937.0" layoutX="493.0" layoutY="428.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="136.0" fitWidth="138.0" layoutX="14.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@assets/img/Logo.png" />
          </image>
       </ImageView>
       <MenuButton layoutX="493.0" layoutY="135.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="314.0" text="Tratamiendo">
          <items>
-            <MenuItem onAction="#btnAgregarT">
+            <MenuItem onAction="#btnAgregarTratamiento">
                <graphic>
                   <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: #a19f9f;" text="Agregar">
                      <font>

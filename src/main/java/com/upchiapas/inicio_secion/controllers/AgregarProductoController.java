@@ -35,7 +35,7 @@ public class AgregarProductoController {
                     Alert alert = new Alert(Alert.AlertType.ERROR);
                     alert.setHeaderText(null);
                     alert.setTitle("Error");
-                    alert.setContentText("Ya a ingresado esta id");
+                    alert.setContentText("Ya a ingresado esta id para un producto");
                     alert.showAndWait();
                     bandera=true;
                 }

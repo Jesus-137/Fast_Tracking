@@ -25,13 +25,20 @@ public class EliminarPacienteControler {
                 if (iterator.next().getId() == id) {
                     iterator.remove();
                     bandera = true;
-                    Alert alert = new Alert(Alert.AlertType.ERROR);
+                    Alert alert = new Alert(Alert.AlertType.INFORMATION);
                     alert.setHeaderText(null);
                     alert.setTitle("Eliminar - paciente");
                     alert.setContentText("El paciente asido eliminado correctamente");
                     alert.showAndWait();
                     FastTrackingApplication.setFXML("Home-view", "Fast Tracking");
                 }
+            }
+            if (!bandera){
+                Alert alert = new Alert(Alert.AlertType.ERROR);
+                alert.setHeaderText(null);
+                alert.setTitle("Error");
+                alert.setContentText("No se encontro al paciente");
+                alert.showAndWait();
             }
         }catch (NumberFormatException e){
             Alert alert = new Alert(Alert.AlertType.ERROR);

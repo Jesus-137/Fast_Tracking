@@ -28,7 +28,7 @@ public class HomeController {
         FastTrackingApplication.setFXML("EliminarPaciente-view","Fast Tracking");
     }
     @FXML
-    void btnAgregarT(ActionEvent event){
+    void btnAgregarTratamiento(ActionEvent event){
         FastTrackingApplication.setFXML("AgregarTratamiento-view","Fast Tracking");
     }
     @FXML

@@ -9,7 +9,6 @@ import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class AgregarTratamientoController {
     @FXML
@@ -17,7 +16,7 @@ public class AgregarTratamientoController {
     @FXML
     private TextField txtTratamiento;
     @FXML
-    void btnAgregarT(MouseEvent event) {
+    void btnAgregarTratamiento(MouseEvent event) {
         ArrayList<Cliente> clientes = Doctor.getClientes();
         int id, i=0;
         try {

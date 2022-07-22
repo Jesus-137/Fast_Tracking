@@ -11,7 +11,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="764.0" prefWidth="448.0" style="-fx-background-color: #C4F6F9;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.inicio_secion.controllers.LoginController">
    <children>
-      <ImageView fitHeight="252.89" fitWidth="252.9" layoutX="98.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="252.89" fitWidth="252.9" layoutX="98.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@assets/img/Logo.png" />
          </image>
