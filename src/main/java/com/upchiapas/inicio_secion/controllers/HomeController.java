@@ -10,7 +10,7 @@ public class HomeController {
 
     @FXML
     void btnAgregar(ActionEvent event) {
-        FastTrackingApplication.setFXML("AgregarPaciente-view","Fast TrackingJ");
+        FastTrackingApplication.setFXML("AgregarPaciente-view","Fast Tracking");
     }
 
     @FXML

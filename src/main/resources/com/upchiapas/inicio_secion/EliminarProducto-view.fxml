@@ -4,6 +4,8 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
@@ -24,12 +26,12 @@
             <Insets />
          </opaqueInsets>
       </TextField>
-      <Button layoutX="149.0" layoutY="392.0" mnemonicParsing="false" onMouseClicked="#btnEliminarProducto" prefHeight="51.0" prefWidth="183.0" style="-fx-background-color: #000000;" text="Eliminar" textFill="WHITE">
+      <Button layoutX="149.0" layoutY="320.0" mnemonicParsing="false" onMouseClicked="#btnEliminarProducto" prefHeight="51.0" prefWidth="183.0" style="-fx-background-color: #000000;" text="Eliminar" textFill="WHITE">
          <font>
             <Font size="24.0" />
          </font>
       </Button>
-      <Button layoutX="150.0" layoutY="465.0" mnemonicParsing="false" onMouseClicked="#btnCancelar" prefHeight="51.0" prefWidth="183.0" style="-fx-background-color: #000000;" text="Cancelar" textFill="WHITE">
+      <Button layoutX="150.0" layoutY="393.0" mnemonicParsing="false" onMouseClicked="#btnCancelar" prefHeight="51.0" prefWidth="183.0" style="-fx-background-color: #000000;" text="Cancelar" textFill="WHITE">
          <font>
             <Font size="24.0" />
          </font>
@@ -44,5 +46,10 @@
             <Insets />
          </opaqueInsets>
       </TextField>
+      <ImageView fitHeight="238.0" fitWidth="222.0" layoutX="131.0" layoutY="462.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/Logo.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

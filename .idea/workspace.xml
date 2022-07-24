@@ -4,15 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="149be38f-d78c-48c5-b63f-198dd5dd506d" name="Changes" comment="Se añadio validaciones">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/Logo.png" afterDir="false" />
+    <list default="true" id="149be38f-d78c-48c5-b63f-198dd5dd506d" name="Changes" comment="Se implemento el logo a la app">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/RecuperarPasswordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/RecuperarPassword-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/FastTrackingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/FastTrackingApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/AgregarProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/AgregarProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/CrearCuentaControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/CrearCuentaControllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/AgregarPaciente-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/AgregarPaciente-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/AgregarProducto-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/AgregarProducto-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/AgregarTratamiento-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/AgregarTratamiento-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/Datos-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/Datos-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/EliminarPaciente-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/EliminarPaciente-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/EliminarProducto-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/EliminarProducto-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/Login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/Login-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/VerProducto-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/VerProducto-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/AgregarPaciente-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/AgregarPaciente-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/AgregarTratamiento-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/AgregarTratamiento-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/FastTrackingApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/FastTrackingApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/Home-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/Home-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/controllers/AgregarTratamientoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/controllers/AgregarTratamientoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/Datos-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/Datos-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/EliminarPaciente-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/EliminarPaciente-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/controllers/HomeController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,25 +55,26 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/52961/IdeaProjects/Fast/src/main/resources/com/upchiapas/inicio_secion",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/52961/IdeaProjects/Fast/src/main/resources/com/upchiapas/inicio_secion&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\52961\IdeaProjects\Fast\src\main\resources\com\upchiapas\inicio_secion" />
@@ -112,7 +123,14 @@
       <workItem from="1658425249104" duration="5938000" />
       <workItem from="1658446350941" duration="93000" />
       <workItem from="1658448265318" duration="6742000" />
-      <workItem from="1658504379482" duration="6270000" />
+      <workItem from="1658504379482" duration="8421000" />
+      <workItem from="1658540490965" duration="2529000" />
+      <workItem from="1658543891700" duration="970000" />
+      <workItem from="1658545323905" duration="4000" />
+      <workItem from="1658548328718" duration="438000" />
+      <workItem from="1658626109023" duration="169000" />
+      <workItem from="1658629710008" duration="562000" />
+      <workItem from="1658691688270" duration="2857000" />
     </task>
     <task id="LOCAL-00001" summary="Se añade AgregarPaciente-view.fxml">
       <created>1658283287754</created>
@@ -156,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658506258487</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Se implemento el logo a la app">
+      <created>1658511048023</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658511048023</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +204,8 @@
     <MESSAGE value="Se añade la opcion de agregar producto y eliminar producto" />
     <MESSAGE value="Se añade la opcion de ver tados del producto" />
     <MESSAGE value="Se añadio validaciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se añadio validaciones" />
+    <MESSAGE value="Se implemento el logo a la app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se implemento el logo a la app" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

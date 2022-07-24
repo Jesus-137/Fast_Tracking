@@ -29,7 +29,7 @@ public class CrearCuentaControllers {
         boolean bandera=true;
         int i=0;
         while (bandera&&i<doctors.size()){
-            if (nombre.getText().equals(doctors.get(i).getNombre())){
+            if (nombre.getText().equals(doctors.get(i).getNombre())&&doctors.get(i).equals("")){
                 Alert alert = new Alert(Alert.AlertType.ERROR);
                 alert.setHeaderText(null);
                 alert.setTitle("Login - Error");

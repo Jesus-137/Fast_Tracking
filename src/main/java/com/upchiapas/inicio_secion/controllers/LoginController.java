@@ -1,7 +1,6 @@
 package com.upchiapas.inicio_secion.controllers;
 
 import com.upchiapas.inicio_secion.FastTrackingApplication;
-import com.upchiapas.inicio_secion.models.Doctor;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
@@ -50,5 +49,10 @@ public class LoginController {
     void btnCrearCuenta(MouseEvent event)
     {
         FastTrackingApplication.setFXML("CrearCuenta-view","Fast Tracking");
+    }
+
+    @FXML
+    void btnRecuperarPassword(MouseEvent event) {
+        FastTrackingApplication.setFXML("RecuperarPassword-view","Fast Tracking");
     }
 }

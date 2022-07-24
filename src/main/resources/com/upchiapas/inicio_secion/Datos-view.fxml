@@ -6,25 +6,25 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="764.0" prefWidth="1264.0" style="-fx-background-color: #C4F6F9;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.inicio_secion.controllers.DatoController">
+<AnchorPane prefHeight="764.0" prefWidth="448.0" style="-fx-background-color: #C4F6F9;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.inicio_secion.controllers.DatoController">
    <children>
-      <Label layoutX="438.0" layoutY="27.0" text="Fast Trackig">
+      <Label layoutX="32.0" layoutY="21.0" text="Fast Trackig">
          <font>
             <Font size="74.0" />
          </font>
       </Label>
-      <Button layoutX="890.0" layoutY="58.0" mnemonicParsing="false" onMouseClicked="#btnInicio" prefHeight="45.0" prefWidth="123.0" style="-fx-background-color: #000000;" text="Inicio" textFill="WHITE">
+      <Button layoutX="164.0" layoutY="693.0" mnemonicParsing="false" onMouseClicked="#btnInicio" prefHeight="45.0" prefWidth="123.0" style="-fx-background-color: #000000;" text="Inicio" textFill="WHITE">
          <font>
             <Font size="23.0" />
          </font>
       </Button>
-      <TextField fx:id="txtId" layoutX="437.0" layoutY="163.0" prefHeight="26.0" prefWidth="386.0" promptText="Ingrese la id del paciente a buscar" />
-      <Button layoutX="530.0" layoutY="202.0" mnemonicParsing="false" onMouseClicked="#btnBuscar" prefHeight="26.0" prefWidth="203.0" style="-fx-background-color: black;" text="Buscar" textFill="WHITE">
+      <TextField fx:id="txtId" layoutX="31.0" layoutY="157.0" prefHeight="26.0" prefWidth="386.0" promptText="Ingrese la id del paciente a buscar" />
+      <Button layoutX="124.0" layoutY="196.0" mnemonicParsing="false" onMouseClicked="#btnBuscar" prefHeight="26.0" prefWidth="203.0" style="-fx-background-color: black;" text="Buscar" textFill="WHITE">
          <font>
             <Font size="16.0" />
          </font>
       </Button>
-      <Label fx:id="tratamientos" accessibleRole="TEXT_AREA" alignment="TOP_LEFT" layoutX="319.0" layoutY="254.0" prefHeight="481.0" prefWidth="626.0">
+      <Label fx:id="tratamientos" accessibleRole="TEXT_AREA" alignment="TOP_LEFT" layoutX="19.0" layoutY="242.0" prefHeight="435.0" prefWidth="410.0">
          <font>
             <Font size="17.0" />
          </font>

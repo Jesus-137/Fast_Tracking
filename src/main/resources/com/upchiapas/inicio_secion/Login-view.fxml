@@ -28,20 +28,21 @@
          </font>
       </Label>
       <PasswordField fx:id="Password" layoutX="75.0" layoutY="491.0" prefHeight="50.0" prefWidth="265.0" />
-      <Button fx:id="btnIniciarSecion" layoutX="122.0" layoutY="549.0" mnemonicParsing="false" onMouseClicked="#btnLogin" prefHeight="50.0" prefWidth="192.5" style="-fx-background-color: black;" text="Iniciar secion" textFill="WHITE">
+      <Button layoutX="128.0" layoutY="576.0" mnemonicParsing="false" onMouseClicked="#btnLogin" prefHeight="50.0" prefWidth="192.5" style="-fx-background-color: black;" text="Iniciar secion" textFill="WHITE">
          <font>
             <Font size="23.0" />
          </font>
       </Button>
-      <Button fx:id="btnSalir" layoutX="122.0" layoutY="672.0" mnemonicParsing="false" onMouseClicked="#btnSalir" prefHeight="50.0" prefWidth="192.5" style="-fx-background-color: Black;" text="Salir" textFill="WHITE">
+      <Button layoutX="128.0" layoutY="699.0" mnemonicParsing="false" onMouseClicked="#btnSalir" prefHeight="50.0" prefWidth="192.5" style="-fx-background-color: Black;" text="Salir" textFill="WHITE">
          <font>
             <Font size="23.0" />
          </font>
       </Button>
-      <Button layoutX="121.0" layoutY="613.0" mnemonicParsing="false" onMouseClicked="#btnCrearCuenta" prefHeight="50.0" prefWidth="194.0" style="-fx-background-color: Black;" text="Crear cuenta" textFill="WHITE">
+      <Button layoutX="127.0" layoutY="640.0" mnemonicParsing="false" onMouseClicked="#btnCrearCuenta" prefHeight="50.0" prefWidth="194.0" style="-fx-background-color: Black;" text="Crear cuenta" textFill="WHITE">
          <font>
             <Font size="23.0" />
          </font>
       </Button>
+      <Button layoutX="74.0" layoutY="541.0" mnemonicParsing="false" onMouseClicked="#btnRecuperarPassword" prefHeight="26.0" prefWidth="266.0" style="-fx-background-color: #C4F6F9;" text="Recuperar Contraceña" textFill="#f300ff" />
    </children>
 </AnchorPane>
