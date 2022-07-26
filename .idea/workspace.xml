@@ -4,26 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="149be38f-d78c-48c5-b63f-198dd5dd506d" name="Changes" comment="Se implemento el logo a la app">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/RecuperarPasswordController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/RecuperarPassword-view.fxml" afterDir="false" />
+    <list default="true" id="149be38f-d78c-48c5-b63f-198dd5dd506d" name="Changes" comment="Se implemento el metodo recuperar cuenta">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/CrearCuentaControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/CrearCuentaControllers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/AgregarPaciente-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/AgregarPaciente-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/AgregarProducto-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/AgregarProducto-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/AgregarTratamiento-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/AgregarTratamiento-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/Datos-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/Datos-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/EliminarPaciente-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/EliminarPaciente-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/EliminarProducto-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/EliminarProducto-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/EliminarProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/upchiapas/inicio_secion/controllers/EliminarProductoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/Login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/Login-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/VerProducto-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/upchiapas/inicio_secion/VerProducto-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/AgregarPaciente-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/AgregarPaciente-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/AgregarTratamiento-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/AgregarTratamiento-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/Datos-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/Datos-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/EliminarPaciente-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/EliminarPaciente-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/upchiapas/inicio_secion/controllers/HomeController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +114,10 @@
       <workItem from="1658548328718" duration="438000" />
       <workItem from="1658626109023" duration="169000" />
       <workItem from="1658629710008" duration="562000" />
-      <workItem from="1658691688270" duration="2857000" />
+      <workItem from="1658691688270" duration="3077000" />
+      <workItem from="1658762386380" duration="5773000" />
+      <workItem from="1658773110173" duration="187000" />
+      <workItem from="1658876652101" duration="1041000" />
     </task>
     <task id="LOCAL-00001" summary="Se añade AgregarPaciente-view.fxml">
       <created>1658283287754</created>
@@ -181,7 +168,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658511048023</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Se implemento el metodo recuperar cuenta">
+      <created>1658696525906</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658696525906</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Se implemento el metodo recuperar cuenta">
+      <created>1658696597568</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658696597568</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +206,8 @@
     <MESSAGE value="Se añade la opcion de ver tados del producto" />
     <MESSAGE value="Se añadio validaciones" />
     <MESSAGE value="Se implemento el logo a la app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se implemento el logo a la app" />
+    <MESSAGE value="Se implemento el metodo recuperar cuenta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se implemento el metodo recuperar cuenta" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -28,7 +28,7 @@
          </font>
       </Label>
       <PasswordField fx:id="Password" layoutX="75.0" layoutY="491.0" prefHeight="50.0" prefWidth="265.0" />
-      <Button layoutX="128.0" layoutY="576.0" mnemonicParsing="false" onMouseClicked="#btnLogin" prefHeight="50.0" prefWidth="192.5" style="-fx-background-color: black;" text="Iniciar secion" textFill="WHITE">
+      <Button layoutX="128.0" layoutY="576.0" mnemonicParsing="false" onMouseClicked="#btnLogin" prefHeight="50.0" prefWidth="192.5" style="-fx-background-color: black;" text="Iniciar sesion" textFill="WHITE">
          <font>
             <Font size="23.0" />
          </font>
